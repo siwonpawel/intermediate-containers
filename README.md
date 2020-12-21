@@ -2,8 +2,11 @@
 
 ## How to run
 
-> docker-compose -d up
+>  docker-compose up -d  
 
+Services can be accessed by
+- localhost:8010
+- localhost:8081
 
 ## What is this project for?
 
