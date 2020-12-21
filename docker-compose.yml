@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  user:
+    restart: always
+    build: ./user_microservice
+    ports:
+      - 8011:8011
+  account:
+    restart: always
+    build: ./account_microservice
+    ports:
+      - 8010:8010
