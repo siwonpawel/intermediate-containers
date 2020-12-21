@@ -11,7 +11,7 @@ func main() {
 
 	router.HandleFunc("/", hello).Methods(http.MethodGet)
 
-	http.ListenAndServe("localhost:8011", router)
+	http.ListenAndServe(":8011", router)
 }
 
 func hello(rw http.ResponseWriter, r *http.Request) {
