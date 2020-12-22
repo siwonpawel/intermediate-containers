@@ -1,5 +1,7 @@
 # intermediate-containers
 
+[Read more about multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/)
+
 ## How to run
 
 >  docker-compose up -d  
